@@ -365,6 +365,12 @@
     font-size: 29px !important;
     font-weight: 700;
   }
+  .third-box:hover{
+    transition: all ease-in-out 0.3ms;
+    transform: translateY( -10px);
+    transition-delay: 0.3ms;
+    transition-duration: 0.3s;
+  }
   .third-head p {
     font-size: 14px !important;
     font-weight: 400 !important;
