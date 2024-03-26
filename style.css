@@ -297,6 +297,12 @@
 .third-section {
   min-height: 670px;
 }
+.third-box:hover{
+  transition: all ease-in-out 0.3ms;
+  transform: translateY( -30px);
+  transition-delay: 0.3ms;
+  transition-duration: 0.3s;
+}
 .third-box h5 {
   height: 29px;
   font-size: 24px;
@@ -601,6 +607,7 @@
 .sixth-head h6 {
   font-size: 24px;
   font-weight: 400;
+  color: #7FB82D;
 }
 .sixth-head h5 {
   font-size: 60px;
@@ -758,10 +765,13 @@ swiper-slide img {
   border-radius: 60%;
   margin: 0px -45px;
 }
-.seventh-text p,
-.seventh-head p {
+.seventh-text p {
   font-size: 16px;
   font-weight: 300;
+}
+.seventh-head p{
+  font-size: 16px;
+  font-weight: 400;
 }
 .seventh-head {
   padding: 40px 0;
@@ -815,6 +825,10 @@ swiper-slide img {
   .seventh-head {
     padding: 20px 0;
   }
+  .seventh-icon img {
+    width: 17px;
+    height: 17px;
+}
 }
 /* Footer=Section */
 .footer-section {
