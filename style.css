@@ -134,7 +134,7 @@
   background-position: center;
 }
 .second-detail {
-  width: 727px;
+  width: 787px;
   height: 425px;
   background-color: #ffffff;
   opacity: 50%;
@@ -148,6 +148,20 @@
 .second-detail p {
   font-size: 28px;
   max-height: 60px;
+}
+.second-img{
+  width: 95% !important;
+}
+@media(max-width:1398px){
+  .second-img{
+    width: 100%;
+  }
+  .second-detail {
+    width: 700px;
+    height: 425px;
+    background-color: #ffffff;
+    opacity: 50%;
+  }
 }
 .second-img1 {
   width: 267px;
