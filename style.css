@@ -871,7 +871,11 @@ swiper-slide img {
   .foot-explore {
     margin-top: 10px;
   }
-
+  .foot-email {
+    height: 183px;
+    width: 226px;
+    margin-top: 12px;
+}
   .foot-contact {
     margin-top: 10px;
   }
