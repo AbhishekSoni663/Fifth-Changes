@@ -367,7 +367,7 @@
   }
   .third-box:hover{
     transition: all ease-in-out 0.3ms;
-    transform: translateY( -10px);
+    transform: translateY( -10px) !important;
     transition-delay: 0.3ms;
     transition-duration: 0.3s;
   }
