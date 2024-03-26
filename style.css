@@ -153,9 +153,7 @@
   width: 97% !important;
 }
 @media(max-width:1398px){
-  .second-img{
-    width: 100%;
-  }
+
   .second-detail {
     width: 700px;
     height: 425px;
